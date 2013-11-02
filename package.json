@@ -1,11 +1,14 @@
 {
-  "name": "watch_r",
-  "description": "",
-  "version": "0.0.14",
-  "repository": {},
+  "name": "watch_r-structr-lock",
+  "description": "This is watch_r 0.0.14 but locks down structr",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/testdouble/node-watchr.git"
+  },
   "engines": {},
   "dependencies": {
-    "structr": "*",
+    "structr": "0.2.3",
     "ejs": "0.8.x",
     "underscore": "1.4.x",
     "commander": "1.1.x",
